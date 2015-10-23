@@ -22,6 +22,12 @@ Or install it yourself as:
 $ assume_role --profile 'your profile name in ~/.aws/config'
 ```
 
+Or
+
+```
+$ docker-compose run --rm app ruby -I lib bin/assume_role
+```
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/assume_role/fork )

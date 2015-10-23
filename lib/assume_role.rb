@@ -1,5 +1,6 @@
-require "assume_role/version"
+require "aws-sdk-core"
+require "aws_config"
+require "thor"
 
-module AssumeRole
-  # Your code goes here...
-end
+require "assume_role/version"
+require "assume_role/cli"

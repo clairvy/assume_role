@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "assume_role"
+
+AssumeRole::CLI.start(ARGV)

@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+$ assume_role --profile 'your profile name in ~/.aws/config'
+```
 
 ## Contributing
 
